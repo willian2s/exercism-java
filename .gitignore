@@ -1,0 +1,69 @@
+# ============================
+# Compilação Java
+# ============================
+*.class
+*.jar
+*.war
+*.ear
+*.log
+hs_err_pid*
+*.ctxt
+.mtj.tmp/
+
+# ============================
+# IDEs
+# ============================
+
+# Eclipse
+.eclipse/
+.project
+.classpath
+.settings/
+bin/
+tmp/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+__saves__/
+
+# NetBeans
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# VS Code
+.vscode/
+
+# ============================
+# Sistema Operacional
+# ============================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*~
+
+# ============================
+# Gradle
+# ============================
+
+# Ignora apenas a pasta `.gradle` (cache)
+**/.gradle/
+
+# Ignora todas as pastas build
+**/build/
+
+# Agora sim, ignore tudo dentro de gradle que não seja o wrapper
+**/gradle/*
+!**/gradle/wrapper/
+!**/gradle/wrapper/gradle-wrapper.jar
+
+# ============================
+# Maven
+# ============================
+target/
